@@ -1,0 +1,427 @@
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    PRODUCT NAME: Tas
+    AUTHOR: MD Nazrul Islam
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    CSS INDEX
+
+    01 FONTS
+    02 TUPOGRAPHY
+    03 HEADER AREA
+    04 ABOUT AREA
+    05 BLOG AREA
+    06 PARTNER AREA
+    07 CONTACT AREA
+    08 FOOTER AREA
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    01 FONTS
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+@font-face{
+	src: url(fonts/MerriweatherSans-Bold.ttf);
+	font-family: 'MSans-Bold';
+}
+@font-face{
+	src: url(fonts/MerriweatherSans-Regular.ttf);
+	font-family: 'MSans-Regular';
+}
+@font-face{
+	src: url(fonts/OpenSans-SemiBold.ttf);
+	font-family: 'OSans-SBold';
+}
+@font-face{
+	src: url(fonts/OpenSans-Regular.ttf);
+	font-family: 'OSans-Regular';
+}
+@font-face{
+	src: url(fonts/OpenSans-Light.ttf);
+	font-family: 'OSans-Light';
+}
+@font-face{
+	src: url(fonts/Dosis-Regular.ttf);
+	font-family: 'D-Regular';
+}
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    02 TUPOGRAPHY
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    03 HEADER AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+.header-area{
+	width: 100%;
+	height: 600px;
+	background-image: url(images/Traumpa_home.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.overlay{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(110, 207, 236, 0.7);
+	position: absolute;
+	top: 0;
+	left :0;
+}
+.logo-area img{
+    width: 150px;
+    height: 70px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.menu-area{
+	padding-top: 15px;
+}
+.menu-area ul{
+    display: flex;
+}
+.menu-area ul li{
+    list-style: none;
+}
+.menu-area ul li a{
+    padding: 20px 20px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'MSans-Regular';
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.header-text{
+	text-align: center;
+	color: #fff;
+	padding-top: 130px;
+	font-family: 'MSans-Regular';
+}
+.header-text h2{
+	font-weight: 700;
+	font-size: 50px;
+	padding: 20px 0;
+}
+.header-area .button-area{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header-area button{
+	padding: 10px 20px;
+	background-color: #fff;
+	border: none;
+	color: #2f3542;
+	font-family: 'OSans-SBold';
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 16px;
+}
+.menu-btn{
+	float: right;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	display: none;
+}
+.menu-btn i{
+	color: #fff;
+	font-size: 30px;
+	cursor: pointer;
+}
+.header-content{
+	margin-top: 80px;
+	margin-left: 90px;
+	color: #fff;
+}
+.header-content i{
+	font-size: 40px;
+}
+.header-content h2{
+	padding: 10px;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: 'MSans-Regular';
+}
+.header-content p{
+	font-family: 'OSans-Regular';
+	font-size: 15px;
+}
+.header-content .h-content-1{
+	background-color: #4AC3E7;
+	width: 100px;
+	height: 250px;
+	text-align: center;
+	padding-top: 50px;
+}
+.header-content .h-content-2{
+	background-image: linear-gradient(to right, #69C5CA, #C7CB73);
+	width: 100px;
+	height: 250px;
+	text-align: center;
+}
+.header-content .i2{
+	font-size: 20px;
+}
+.header-content .h-content-3{
+    background-color: #4AC3E7;
+	width: 100px;
+	height: 250px;
+	text-align: center;
+	padding-top: 50px;
+}
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    04 ABOUT AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+.about-area{
+	width: 100%;
+	height: 750px;
+	padding-top: 300px;
+	background-color: #fff;
+}
+.about-area-top{
+	text-align: center;
+}
+.about-area-top h2{
+	font-family: 'MSans-Bold';
+}
+.about-area-top p{
+	font-family: 'OSans-Regular';
+	color: #57606f;
+}
+.about-area-bottom{
+	padding: 50px;
+}
+.about-area-bottom .about-box{
+	width: 90px;
+	height: 170px;
+	text-align: center;
+	padding-top: 10px;
+}
+.about-area-bottom h4{
+	font-family: 'MSans-Regular';
+}
+.about-area-bottom p{
+	font-family: 'OSans-Regular';
+	font-size: 15px;
+}
+.about-area-bottom .box1{
+    background-color: #F0F6F8;
+}
+.about-area-bottom .box1 i{
+	color: #BDCA7C;
+	font-size: 30px;
+}
+.about-area-bottom .box2{
+	background-image: linear-gradient(to right, #69C5CA, #C7CB73);
+}
+.about-area-bottom .box2 i{
+	font-size: 30px;
+	color: linear-gradient(to right, #69C5CA, #C7CB73);
+}
+.about-area-bottom .box3{
+	background-color: #F0F6F8;
+}
+.about-area-bottom .box3 i{
+	font-size: 30px;
+	color: #BDCA7C;
+}
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    05 BLOG AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+.blog-area{
+	width: 100%;
+	height: 700px;
+	background-color: #F1F4F5;
+	padding: 50px;
+}
+.blog-area .blog-area-top{
+	padding: 50px;
+}
+.blog-area h2{
+   font-family: 'MSans-Bold';
+}
+.blog-area .blog-area-left .p1{
+   font-family: 'OSans-Regular';
+   font-size: 12px;
+}
+.blog-area .blog-area-left .p2{
+   font-family: 'MSans-Regular';
+}
+.blog-area .blog-area-right .p1{
+   font-family: 'OSans-Regular';
+   font-size: 12px;
+}
+.blog-area .blog-area-right .p2{
+   font-family: 'MSans-Regular';
+}
+.blog-area .blog-area-right .p3{
+   font-family: 'OSans-SBold';
+   color: #5990CD;
+   font-size: 12px;
+   cursor: pointer;
+}
+.blog-area .blog-area-right img{
+	padding: 5px 0;
+}
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    06 PARTNER AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+.partner-area{
+	width: 100%;
+	height: 500px;
+	background-color: #fff;
+	text-align: center;
+}
+.partner-area p{
+	font-family: 'OSans-Regular';
+	color: #6F8291;
+	padding-bottom: 80px;
+}
+.partner-area h2{
+	font-family: 'MSans-Bold';
+	padding-top: 50px;
+}
+.partner-area img{
+	width: 180px;
+	height: 100px;
+}
+.partner-area .indicator{
+	width: 30px;
+	height: 30px;
+	margin-top: 30px;
+	border-radius: 50%;
+	background-color: #fff;
+	box-shadow: 2px 2px 5px 0px #ced6e0;
+}
+.partner-area .indicator i{
+	font-size: 25px;
+	color: #2f3542;
+}
+.partner-area .indicator i:hover{
+	color: #F9AC59;
+}
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    07 CONTACT AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+.contact-area{
+	width: 100%;
+	height: 250px;
+	background-image: url(images/6.jpg);
+	text-align: center;
+	padding: 80px;
+	color: #fff;
+}
+.contact-area p{
+	font-family: 'OSans-Light';
+}
+.contact-area h2{
+	font-family: 'D-Regular';
+}
+.contact-area button{
+	width: 150px;
+	height: 50px;
+	border: 1px solid #fff;
+	color: #fff;
+	cursor: pointer;
+	font-family: 'OSans-SBold';
+	text-transform: uppercase;
+	background-color: transparent;
+}
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    08 FOOTER AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+.footer-area{
+	background-color: #F1F4F5;
+	width: 100%;
+	height: 400px;
+	padding: 50px 0;
+}
+.footer-area h2{
+	font-family: 'MSans-Bold';
+	padding-bottom: 10px;
+}
+.footer-area p{
+	font-family: 'MSans-Regular';
+	font-size: 14px;
+}
+.footer-area p span{
+	color: #8ED4EC;
+}
+.footer-area .p1{
+	color: #A1ADB6;
+	font-size: 12px;
+}
+.footer-area i{
+	padding-top: 10px;
+}
+.footer-area i+i{
+	padding-left: 10px;
+}
+.footer-area i:hover{
+	color: #F9AC59;
+}
+.footer-area button{
+	width: auto;
+	height: auto;
+	padding: 5px 5px;
+	border: 1px solid #ced6e0;
+	cursor: pointer;
+}
+.footer-area button+button{
+	margin-left: 2px;
+	margin-bottom: 5px;
+}
+.footer-area button:hover{
+	background-color: #F9AC59;
+}
+.footer-area .last-text{
+	text-align: center;
+	padding-top: 20px;
+	color: #A1ADB6;
+}

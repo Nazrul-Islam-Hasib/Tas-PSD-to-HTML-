@@ -1,0 +1,51 @@
+@media all and (max-width: 768px){
+		.header-area{
+			height: 2000px;
+		}
+	    .menu-area{
+	        display: none;
+	    }
+		.menu-area ul{
+	        display: block;
+	    }
+	    .menu-btn{
+	        display: block;
+	        float: none;
+	    }
+	    .header-content{
+	    	margin-left: 10px;
+	    	margin-right: 10px;
+	    }
+	    .header-content .h-content-1{
+	    	width: 100%;
+	    }
+	    .header-content .h-content-2{
+	    	width: 100%;
+	    }
+	    .header-content .h-content-3{
+	    	width: 100%;
+	    }
+	    .about-area{
+	    	padding-top: 100px;
+	    	height: 1000px;
+	    }
+	    .about-area-bottom .about-box{
+	    	width: 100%;
+	    }
+	    .blog-area{
+	    	height: 1900px;
+	    }
+	    .partner-area{
+	    	height: 900px;
+	    }
+	    .partner-area .indicator{
+	    	margin-left: 130px;
+	    }
+	    .contact-area{
+	    	height: 500px;
+	    }
+	    .footer-area{
+	    	height: 1050px;
+	    }
+
+}
