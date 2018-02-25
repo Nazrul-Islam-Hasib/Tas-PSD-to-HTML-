@@ -160,7 +160,7 @@
 }
 .header-content{
 	margin-top: 80px;
-	margin-left: 90px;
+	margin-left: 85px;
 	color: #fff;
 }
 .header-content a{
@@ -177,14 +177,16 @@
 	padding: 10px;
 	font-size: 25px;
 	text-transform: uppercase;
-	letter-spacing: 5px;
+	letter-spacing: 2px;
 	font-family: 'MSans-Regular';
 }
 .header-content p{
 	font-family: 'OSans-Regular';
 	font-size: 15px;
 }
-.header-content .h-content-1,.h-content-2,.h-content-3{
+.header-content .h-content-1,
+.header-content .h-content-2,
+.header-content .h-content-3{
 	background-color: #4AC3E7;
 	width: 100px;
 	height: 300px;
